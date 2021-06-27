@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:31298
+      discovery:
+        server-addr: 127.0.0.1:31298
+  application:
+    name: config
+
+server:
+  port: 9909
